@@ -1,4 +1,4 @@
-# Google Calendar Interface for web-connected IOT apps
+# Google Calendar Interface for IOT apps
 This project holds the code of a google web-app that can be used to query your google calendar for i.e. use in IOT applications. The web-app checks your calendar for events that start or end on a specific date and parses the info into a JSON string.
 
   ## Input
