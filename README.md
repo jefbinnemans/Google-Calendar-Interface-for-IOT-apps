@@ -29,3 +29,7 @@ This project holds the code of a google web app that can be used to query your g
    <pre><code>
    {"type":"end","title":"Test 1","description":"","h":0,"m":30,"s":0}, {"type":"start","title":"test 4","description":"","h":0,"m":0,"s":0}, {"type":"start","title":"test 2","description":"","h":14,"m":0,"s":0}, {"type":"end","title":"test 2","description":"","h":15,"m":0,"s":0}, {"type":"start","title":"test 5","description":"Description goes here","h":16,"m":0,"s":0}, {"type":"end","title":"test 5","description":"Description goes here","h":17,"m":0,"s":0}, {"type":"start","title":"test 3","description":"","h":23,"m":55,"s":0}
    </code></pre>
+   
+ ## Acknowledgements
+  This project was inspired by https://www.instructables.com/Irrigation-Using-Google-Calendar/
+  
