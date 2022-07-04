@@ -20,19 +20,11 @@ This project holds the code of a google web app that can be used to query your g
   
   ## Example
    Event "Make tea", with a description of "Afternoon tea chop chop" that starts at 15:00:00.000h end ends at 16:59:59.999h on the query date will be returned as:<br>
-   <pre><code>
-   {"type" = "start", "title": "Make tea", "description": "Afternoon tea chop chop", "h":15, "m":00, "s": 0}, {"type" = "end", "title": "Make tea", "description": "Afternoon tea chop chop",  "h":16, "m":59, "s": 59.999}
-   </code></pre>
+   <pre><code>{"type" = "start", "title": "Make tea", "description": "Afternoon tea chop chop", "h":15, "m":00, "s": 0}, {"type" = "end", "title": "Make tea", "description": "Afternoon tea chop chop",  "h":16, "m":59, "s": 59.999}</code></pre>
    
-   ## Test scenarios
-   
-   
-    Some basic testscenarios were used.
-   
-   
+  ## Test scenarios
+   Some basic testscenarios were used, based on this calendar:
    ![Woops, no figure here](readmd_fig1.png)
-   
-   
    The output for 4 July is:
    <pre><code>
    {"type":"end","title":"Test 1","description":"","h":0,"m":30,"s":0}, {"type":"start","title":"test 4","description":"","h":0,"m":0,"s":0}, {"type":"start","title":"test 2","description":"","h":14,"m":0,"s":0}, {"type":"end","title":"test 2","description":"","h":15,"m":0,"s":0}, {"type":"start","title":"test 5","description":"Description goes here","h":16,"m":0,"s":0}, {"type":"end","title":"test 5","description":"Description goes here","h":17,"m":0,"s":0}, {"type":"start","title":"test 3","description":"","h":23,"m":55,"s":0}
