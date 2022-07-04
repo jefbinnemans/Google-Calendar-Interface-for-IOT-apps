@@ -1,8 +1,8 @@
 # Google Calendar Interface
-This project holds the code of a google web app that can be used to query your google calendar for i.e. use in IOT applications. The web-app checks your calendar for events that start or end on a specific date and parses the info into a JSON string.
+This project holds the code of a google web-app that can be used to query your google calendar for i.e. use in IOT applications. The web-app checks your calendar for events that start or end on a specific date and parses the info into a JSON string.
 
   ## Input
-  The date to check can be specified by supplying a correctly formatted date parameter in the URL to this webapp. For an example, the URL to request info on events for 4 july 2022, use this URL: 
+  The date to check can be specified by supplying a correctly formatted date parameter in the URL to this web-app. For an example, the URL to request info on events for 4 july 2022, use this URL: 
   > https://urltowebappgoeshere?date=20220704
   
   The format of the date is: 
